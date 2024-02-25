@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Cards CSS</title>
+		<meta charset="utf-8">
+		<style>
+			/* To come */
+			img {
+				max-width: 100%;
+			}
+			html, body {
+				height: 100vh;
+			}
+			body {
+				margin: 0;
+                font-size: 2em;
+                letter-spacing: 0.01em; 
+			}
+			section {
+				height: 100vh;
+				background: black;
+                /*
+                   vertical centering with flexbox:
+                   https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/
+                */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+			}
+			.card {
+				width: 450px;
+				height: 300px;
+				background: white;
+				border-radius: 8px;
+				text-align: center;
+                font-family: "Georgia";
+                /*
+                   vertical centering with flexbox:
+                   https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/
+                */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative; /* define position absolute location */
+			}
+
+            .logo {
+                
+                width: 100px;
+                position: absolute; 
+                top: 80px;
+                left: 10px;
+                z-index: 1; /*accepets integers */
+                mix-blend-mode: multiply;
+                filter: grayscale(1);
+
+            }
+
+            .name {
+                z-index: 2;
+            }
+
+            .title {
+                font-size: 12px;
+                text-align: left;
+                position: absolute;
+                bottom: 50px;      
+            }
+
+            .addnl {
+                font-size: 12px;
+                text-align: center;
+                position: absolute;
+                bottom: 37px;
+            }
+
+            .vline {
+                background: plum;
+                height: 100%;
+                width: 5px;
+                position: absolute;
+                right: 75px;
+            }
+
+            .hline {
+                background: plum;
+                height: 5px;
+                width: 100%;
+                position: absolute;
+                top: 50px;
+            }
+
+
+            #two {
+                background: black;
+
+
+            }
+            #two .card{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                background: plum;
+            }
+
+            #two .vline{
+                background: white;
+                height: 100%;
+                width: 5px;
+                position: absolute;
+                right: 75px;
+            }
+
+            #two .hline {
+                background: white;
+                height: 5px;
+                width: 100%;
+                position: absolute;
+                top: 50px;
+            }
+
+
+		</style>
+	</head>
+
+	<body>
+
+		<section id="one">
+		
+			<div class="card">
+                <div class="name">
+                  Heidi Temple  
+                </div>
+				<div class="logo">
+                    <img src="self.jpg">
+                </div>
+                <div class="title">
+                    Student <br>
+                    Card designer <br>
+                    One-year-old<br>
+                    <br>
+                    VIS 208 <br>
+                    htemple@princeton.edu
+                </div>
+                
+                <div class="addnl">
+                    www.linkedin.com/in/htemple5999
+                </div>
+
+                <div class="vline"></div>
+                <div class="hline"></div>
+			</div>
+
+
+		</section>
+
+        <section id="two">
+		
+			<div class="card">
+                <div class="name">
+                  See front for details!  
+                </div>
+				
+                <div class="title">
+                    Sorry this isn't the fun side
+                </div>
+                
+                <div class="vline"></div>
+                <div class="hline"></div>
+                
+
+			</div>
+		</section>
+
+	</body>
+
+</html>

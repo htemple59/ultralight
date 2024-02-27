@@ -10,9 +10,27 @@
         <style>
         
         .proposal {
-            text-align: center;
-            align-content: center;
             
+            align-content: center;
+        }
+
+        .title {
+            text-align: center;
+        }
+        
+        #section1 {
+            background-color: plum;
+            text-align: center;
+        }
+
+        #section2 {
+            background-color: darkturquoise;
+            
+        }
+
+        #section3 {
+            background-color:mediumslateblue;
+            text-align: center;
         }
         
         </style>
@@ -20,6 +38,76 @@
 
     </head>
 
+
+
+    <body>
+        <h1 class="title">proposed lightweight formats</h1>
+
+
+
+        <section id="section1">
+            <h2>message sender</h2>
+            <label for="message">what's on your mind?</label>
+            <br>
+            <input type="text" name="message" id="message">
+            <button type="submit" >Send</button>
+
+        </section>
+
+        <section id="section2">
+            <h2>health spreadsheet</h2>
+
+            <h3>Date</h3>
+
+            <table >
+
+                <colgroup>
+                    <col style="background-color: white" >
+                    <col span="2" style="background-color:lightcoral">
+                </colgroup>
+                <thead>
+                <tr>
+                    <th>Aspect of life</th>
+                    <th>Description</th>
+                </tr>
+                </thead>
+            <!-- <tfoot>
+                <tr>
+                    <th>name</th>
+                    <th>Instrument</th>
+                </tr>
+                </tfoot>-->
+                <tbody>
+                <tr>
+                    <td>Breakfast</td>
+                    <td>Smoothie</td>
+                </tr>
+                <tr>
+                    <td>Sleep</td>
+                    <td>8 hours</td>
+                </tr>
+                <tr>
+                    <td>Fatigue?</td>
+                    <td>Y</td>
+                </tr>
+                <tr>
+                    <td>Appetite</td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="section3">
+            <h2>today in history</h2>
+            <img src="" alt="Snapshot of a news website main story, date. changes every day">
+
+        </section>
+
+
+
+    </body>
 
 
 </html>

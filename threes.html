@@ -4,7 +4,7 @@
 
 
     <head>
-        <title>Web Library</title>
+        <title>3 minute songs</title>
         <link rel="icon" type="image/x-icon" href="images/web_lib_favicon.png">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -14,7 +14,7 @@
             body {
                 background-color: dimgray;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                color: white;
+                color: white; 
             }
 
             .nav-container {
@@ -31,7 +31,7 @@
                 margin-bottom: 1em;
                 left: 1em;
                 right: 1em;
-                top: 1em;
+                bottom: 1em;
                 background: dimgray;
                 text-align: center;
 
@@ -48,18 +48,15 @@
             a.current {
                 font-weight: bold;
             }
-            
+
             img {
                 width: 200px;
                 position: relative;
                 left:5%;
                 
             }
+            
 
-            .title {
-                position:absolute;
-                left: 5%;
-            }
 
 
             progress {
@@ -73,79 +70,43 @@
 
             }
 
-
             div.scrollmenu {
-            background-color: rgb(242, 168, 252);
-            overflow: auto;
-            white-space: nowrap;
+            
+                background-color: rgb(242, 168, 252);
+                overflow: auto;
+                white-space: nowrap;
             }
 
             div.scrollmenu a {
-            display: inline-block;
-            color: rgb(242, 168, 252);
-            text-align: center;
+                display: inline-block;
+                color: rgb(242, 168, 252);
+                text-align: center;
             
-            text-decoration: none;
+                text-decoration: none;
             }
 
             div.scrollmenu a:hover {
-            background-color: magenta;
+                background-color: magenta;
             }
 
-        </style>
 
 
+            </style>
 
-    </head>
+        <body>
 
-    <body>
+            <nav>
+                <a href="web_library.html">Full list</a>
+                <a href="twos.html">2-minute length</a>
+                <a href="threes.html" class="current">3-minute length</a>
+                <a href="fours.html">4-minute length</a>
+                <a href="index.html">Homepage</a>
+    
+    
+            </nav>
 
-        <nav>
-            <a href="web_library.html" class="current">Full list</a>
-            <a href="twos.html">2-minute length</a>
-            <a href="threes.html">3-minute length</a>
-            <a href="fours.html">4-minute length</a>
-            <a href="index.html">Homepage</a>
+            <progress value="0.67">3 min Length</progress> <br>
 
-
-        </nav>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-        <section >
-
-            <div class="scrollmenu">
-                <a href="https://youtu.be/KDq99gw22Mw?si=IQ4q4vLgaLLZHCof"><img src="images/atlas_cover.jpg" alt="atlas album cover"></a> <!--2:24-->
-                <a href="https://youtu.be/Cx0dVx6ezLk?si=BR1jtd8hsShW-KEM"><img src="images/honeybee_cover.jpg" alt="honeybee album cover"> </a> <!--2:33-->
-                <a href="https://youtu.be/3akG6-Zc2vM?si=cUL32SAOanYftvvf"><img src="images/2am_cover.jpg" alt="2am album cover"></a> <!--2:34-->
-                <a href="https://youtu.be/CIFTPU3Ex2g?si=0IeOHUNRfwuN4Q0I"><img src="images/witches_cover.jpg" alt="witches album cover"> </a> <!--2:35-->
-                <a href="https://youtu.be/ygLy1FSNEAA?si=Se6B2ELKJ3fBYrA1"><img src="images/phantom_pop_cover.jpg" alt="outright album cover"></a> <!--2:42-->
-                <a href="https://youtu.be/gf_6jDR_py0?si=1LP8q9YdvgRWfsMQ"><img src="images/cake_cover.jpg" alt="piece of cake album cover"> </a> <!--2:46-->
-                <a href="https://youtu.be/cJvJOsSfVcg?si=ym9C72R8AQkDc2u6"><img src="images/nomu_cover.jpg" alt="nomu album cover"></a> <!--2:50-->
-                <a href="https://youtu.be/2HYFEtfR5HE?si=bQ-UahqMiCFqtXkb"><img src="images/alchemist.jpg" alt="alchemist album cover"></a> <!--2:53-->
-                <a href="https://youtu.be/Oj9wIayYOns?si=ecF4LQIWvOQ9Zb8y"><img src="images/we_know_cover.jpg" alt="we know album cover"> </a> <!--2:59-->
-           
-
-              </div>
-            <progress value="0.33" >2 min Length</progress> <br>
-
-
-        </section>
-
-        <section >
             <div class="scrollmenu">
                 <a href="https://youtu.be/hXaU0QzByIM?si=wpv3kH4tBeXqZeoy"><img src="images/ugh_cover.jpg" alt="ugh! album cover"> </a><!--3:00-->
                 <a href="https://youtu.be/UaMGfjiD1p8?si=MnB7_BlgWgZJI4EP"><img src="images/breaking_cover.jpg" alt="breaking up my bones album cover"></a> <!--3:05-->
@@ -164,32 +125,9 @@
                 <a href="https://youtu.be/PSRJCw4FyNI?si=8GVRmcXau3Z44Nvp"><img src="images/unreal_cover.jpg" alt="de selby 2 album cover"></a> <!--3:48-->
 
               </div>
-
             
-            <br>
-            <progress value="0.67">3 min Length</progress> <br>
 
-        </section>
-
-        <section >
-            <div class="scrollmenu">
-                <a href="https://youtu.be/4k7XRlfHn48?si=Qa58nRfdYrPjaLRf"><img src="images/drama_cover.jpg" alt="drama queen album cover"></a> <!--4:06-->
-                <a href="https://youtu.be/x6qmx0rAsAQ?si=AinkZnE_Sq9ud27k"><img src="images/glistening_cover.jpg" alt="glistening album cover"> </a> <!--4:08-->
-                <a href="https://youtu.be/FSnAllHtG70?si=khuUhu8Pc32qsLgg"><img src="images/ugh_cover.jpg" alt="the sound album cover"> <!--4:09--></a>
-                <a href="https://youtu.be/urF7LT6tGfs?si=3MDb1tsRvgP0mpUN"><img src="images/boy_cover.jpg" alt="just a boy album cover"> <!--4:11--></a>
-                <a href="https://youtu.be/IYvnaYipF4I?si=n-K_Pq6cGy9WB7Rt"><img src="images/poolhouse_cover.jpg" alt="pool house album cover"> <!--4:29--></a>
-                <a href="https://youtu.be/FubvitXV_zM?si=6oL1kC3dOy80NycH"><img src="images/sloom_cover.jpg" alt="sloom album cover"></a> <!--4:44-->
-                
-                
-            </div>
-
-            <progress value="1">4 min Length</progress> <br>
-        </section>
-
-        </body>
-
-
-
+           </body>
 
 
 

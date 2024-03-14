@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+    <html>
+
+        <head>
+            <title>Poe Field</title>
+            <link rel="icon" type="image/x-icon" href="images/forklift_edit.png">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+            <style>
+
+                body {
+                    background-image:url(images/dirt.jpg);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+
+                }
+
+                .forklift {
+                    max-width: 20%;
+                    position:absolute;
+                    top: 50%;
+                    left: 10%;
+                    transform:rotateY('180deg')
+
+                }
+
+                .backhoe {
+                    max-width: 40%;
+                    position:absolute;
+                    top: 50%;
+                    right:2%;
+
+                }
+
+
+                @media screen and (max-width: 800px) {
+
+                    .forklift {
+                        top:35%;
+                        left:60%;
+
+                    }
+
+                    .backhoe {
+                        right:50%;
+                        
+                    }
+                }
+
+                @media screen and (max-width:550px) {
+                    .forklift {
+                        top:60%;
+                        max-width:50%;
+                    }
+
+                    .backhoe {
+                        display: none;
+                    }
+
+                }
+
+
+
+
+            </style>
+
+        </head>
+
+
+        <body>
+
+            <img class="forklift" src="images/forklift_edit.png" alt="forklift">
+
+            <img class="backhoe" src="images/backhoe_edit.png" alt="backhoe">
+
+
+        </body>
+
+
+
+
+
+
+
+
+
+
+    </html>

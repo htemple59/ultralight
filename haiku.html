@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+    <html>
+
+        <head>
+            <title>Haiku</title>
+            <link rel="icon" type="image/x-icon" href="images/beaker_fav.jpg">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+            <style>
+
+                body {
+                    background-image: conic-gradient(plum, lightblue, mediumpurple, mediumorchid);
+                    background-repeat: no-repeat;
+                    background-attachment:fixed;
+                    
+                }
+
+                nav {
+                    position:absolute;
+                    bottom:20px;
+                    left:10px;
+                }
+
+                .haikuone {
+                    font-size:medium;
+                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    display:none;
+                    position:absolute;
+                    top:20%;
+                    left:18%;
+
+                }
+
+                .haikutwo {
+                    font-size:x-large;
+                    font-family:Georgia, 'Times New Roman', Times, serif;
+                    display:none;
+                    position:absolute;
+                    top:20%;
+                    right:18%;
+
+                }
+
+                .haikuthree {
+                    font-size:xx-large;
+                    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    display:none;
+                    position:absolute;
+                    bottom:20%;
+                    right:18%;
+
+                }
+
+                .haikufour {
+                    font-size:large;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    display:none;
+                    position:absolute;
+                    bottom:20%;
+                    left:18%;
+
+                }
+
+
+                @media screen and (max-width: 2000px) {
+                    .haikuone {
+                        display:flex;
+                    }
+
+                    .haikutwo {
+                        display:none;
+                    }
+
+                    .haikuthree {
+                        display:none;
+                    }
+
+                    .haikufour {
+                        display:none;
+                    }
+
+                }
+
+                @media screen and (max-width:1500px) {
+                    .haikuone {
+                        display:none;
+                    }
+
+                    .haikutwo {
+                        display: flex;
+                    }
+
+                    .haikuthree {
+                        display:none;
+                    }
+
+                    .haikufour {
+                        display:none;
+                    }
+
+                }
+
+                @media screen and (max-width:1000px) {
+                    .haikuone {
+                        display:none;
+                    }
+
+                    .haikutwo {
+                        display:none;
+                    }
+
+                    .haikuthree {
+                        display:flex;
+                    }
+
+                    .haikufour {
+                        display:none;
+                    }
+
+                }
+
+                @media screen and (max-width:800px) {
+                    .haikuone {
+                        display:none;
+                    }
+
+                    .haikutwo {
+                        display:none;
+                    }
+
+                    .haikuthree {
+                        display:none;
+                    }
+
+                    .haikufour {
+                        display:flex;
+                    }
+
+                }
+
+            </style>
+
+
+        </head>
+
+        <body>
+            <p class="haikuone">
+                No one is here <br>
+                Not even the mice make sounds <br>
+                But there's always a postdoc <br>
+            </p>
+
+            <p class="haikutwo">
+                Where is everyone?<br>
+                She unlocks the door first<br>
+                The workday begins <br>
+            </p>
+
+            <p class="haikuthree">
+                Pipette tips drop<br>
+                Chemicals fill the air<br>
+                Researchers lament<br>
+            </p>
+
+            <p class="haikufour">
+                A rookie mistake<br>
+                I put the supernatants<br>
+                Into the waste<br>
+            </p>
+
+            <nav>
+                <a href="index.html">Homepage</a>
+            </nav>
+
+
+        </body>
+
+    </html>
